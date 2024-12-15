@@ -1,0 +1,19 @@
+section{
+    display: block;
+}
+div {
+    text-align: center;
+    font-weight: bold;
+     color: white;
+}
+section div{
+    height: 30px;
+    width: 80px;
+    background-color: red;
+    border: 1px solid black;
+    display: inline-block;    
+}
+section div:nth-of-type(even){
+    display: none;
+}
+
